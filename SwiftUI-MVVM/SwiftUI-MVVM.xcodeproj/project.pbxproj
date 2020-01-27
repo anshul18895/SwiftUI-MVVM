@@ -3,29 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D15EEB723D18D2900C35EA6 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D15EEB623D18D2900C35EA6 /* APIManager.swift */; };
+		3D15EEB923D18D9F00C35EA6 /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D15EEB823D18D9F00C35EA6 /* APIRouter.swift */; };
+		3D15EEBB23D1911E00C35EA6 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D15EEBA23D1911E00C35EA6 /* Environment.swift */; };
+		3D15EEBD23D1BB1A00C35EA6 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D15EEBC23D1BB1A00C35EA6 /* Reachability.swift */; };
 		3D315B7823D061D100135097 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D315B7723D061D100135097 /* AppDelegate.swift */; };
 		3D315B7A23D061D100135097 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D315B7923D061D100135097 /* SceneDelegate.swift */; };
-		3D315B7C23D061D100135097 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D315B7B23D061D100135097 /* ContentView.swift */; };
+		3D315B7C23D061D100135097 /* MovieListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D315B7B23D061D100135097 /* MovieListView.swift */; };
 		3D315B7E23D061D300135097 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D315B7D23D061D300135097 /* Assets.xcassets */; };
 		3D315B8123D061D300135097 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D315B8023D061D300135097 /* Preview Assets.xcassets */; };
 		3D315B8423D061D300135097 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D315B8223D061D300135097 /* LaunchScreen.storyboard */; };
-		3D315B8C23D0621500135097 /* MovieListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D315B8B23D0621500135097 /* MovieListView.swift */; };
+		3D315B8C23D0621500135097 /* MovieListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D315B8B23D0621500135097 /* MovieListCell.swift */; };
+		E8CA932EC1D1652E0EE1066A /* Pods_SwiftUI_MVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B11FBBEB6198A518279CC1F5 /* Pods_SwiftUI_MVVM.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D15EEB623D18D2900C35EA6 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		3D15EEB823D18D9F00C35EA6 /* APIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
+		3D15EEBA23D1911E00C35EA6 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		3D15EEBC23D1BB1A00C35EA6 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		3D315B7423D061D100135097 /* SwiftUI-MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D315B7723D061D100135097 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D315B7923D061D100135097 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3D315B7B23D061D100135097 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3D315B7B23D061D100135097 /* MovieListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListView.swift; sourceTree = "<group>"; };
 		3D315B7D23D061D300135097 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D315B8023D061D300135097 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3D315B8323D061D300135097 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D315B8523D061D300135097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3D315B8B23D0621500135097 /* MovieListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListView.swift; sourceTree = "<group>"; };
+		3D315B8B23D0621500135097 /* MovieListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListCell.swift; sourceTree = "<group>"; };
+		A78582302FAA5709AE86602B /* Pods-SwiftUI-MVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI-MVVM.release.xcconfig"; path = "Target Support Files/Pods-SwiftUI-MVVM/Pods-SwiftUI-MVVM.release.xcconfig"; sourceTree = "<group>"; };
+		B11FBBEB6198A518279CC1F5 /* Pods_SwiftUI_MVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI_MVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD7798D014AB5707E6CE15E /* Pods-SwiftUI-MVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI-MVVM.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUI-MVVM/Pods-SwiftUI-MVVM.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +45,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8CA932EC1D1652E0EE1066A /* Pods_SwiftUI_MVVM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BA722C78B44B85335905709 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B11FBBEB6198A518279CC1F5 /* Pods_SwiftUI_MVVM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D15EEB523D18D0C00C35EA6 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				3D15EEB623D18D2900C35EA6 /* APIManager.swift */,
+				3D15EEB823D18D9F00C35EA6 /* APIRouter.swift */,
+				3D15EEBA23D1911E00C35EA6 /* Environment.swift */,
+				3D15EEBC23D1BB1A00C35EA6 /* Reachability.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
 		3D315B6B23D061D100135097 = {
 			isa = PBXGroup;
 			children = (
 				3D315B7623D061D100135097 /* SwiftUI-MVVM */,
 				3D315B7523D061D100135097 /* Products */,
+				B86FB013F2C0FCAB8DDA5C83 /* Pods */,
+				2BA722C78B44B85335905709 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +94,9 @@
 			children = (
 				3D315B7723D061D100135097 /* AppDelegate.swift */,
 				3D315B7923D061D100135097 /* SceneDelegate.swift */,
-				3D315B7B23D061D100135097 /* ContentView.swift */,
-				3D315B8B23D0621500135097 /* MovieListView.swift */,
+				3D315B7B23D061D100135097 /* MovieListView.swift */,
+				3D315B8B23D0621500135097 /* MovieListCell.swift */,
+				3D15EEB523D18D0C00C35EA6 /* APIManager */,
 				3D315B7D23D061D300135097 /* Assets.xcassets */,
 				3D315B8223D061D300135097 /* LaunchScreen.storyboard */,
 				3D315B8523D061D300135097 /* Info.plist */,
@@ -78,6 +113,15 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		B86FB013F2C0FCAB8DDA5C83 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFD7798D014AB5707E6CE15E /* Pods-SwiftUI-MVVM.debug.xcconfig */,
+				A78582302FAA5709AE86602B /* Pods-SwiftUI-MVVM.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,9 +129,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D315B8823D061D300135097 /* Build configuration list for PBXNativeTarget "SwiftUI-MVVM" */;
 			buildPhases = (
+				80B10AA963FF9DBA94A7F65B /* [CP] Check Pods Manifest.lock */,
 				3D315B7023D061D100135097 /* Sources */,
 				3D315B7123D061D100135097 /* Frameworks */,
 				3D315B7223D061D100135097 /* Resources */,
+				A9EBDB612843A38CE3CDDB6F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -144,15 +190,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		80B10AA963FF9DBA94A7F65B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUI-MVVM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9EBDB612843A38CE3CDDB6F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-MVVM/Pods-SwiftUI-MVVM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-MVVM/Pods-SwiftUI-MVVM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-MVVM/Pods-SwiftUI-MVVM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3D315B7023D061D100135097 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3D315B7823D061D100135097 /* AppDelegate.swift in Sources */,
-				3D315B8C23D0621500135097 /* MovieListView.swift in Sources */,
+				3D15EEB923D18D9F00C35EA6 /* APIRouter.swift in Sources */,
+				3D315B8C23D0621500135097 /* MovieListCell.swift in Sources */,
+				3D15EEBB23D1911E00C35EA6 /* Environment.swift in Sources */,
+				3D15EEB723D18D2900C35EA6 /* APIManager.swift in Sources */,
 				3D315B7A23D061D100135097 /* SceneDelegate.swift in Sources */,
-				3D315B7C23D061D100135097 /* ContentView.swift in Sources */,
+				3D15EEBD23D1BB1A00C35EA6 /* Reachability.swift in Sources */,
+				3D315B7C23D061D100135097 /* MovieListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +378,7 @@
 		};
 		3D315B8923D061D300135097 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFD7798D014AB5707E6CE15E /* Pods-SwiftUI-MVVM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -305,6 +398,7 @@
 		};
 		3D315B8A23D061D300135097 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A78582302FAA5709AE86602B /* Pods-SwiftUI-MVVM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
